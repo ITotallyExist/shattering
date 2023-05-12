@@ -1,0 +1,30 @@
+{
+    "variants": {
+      "facing=east": {
+        "model": "redstonelasers:block/redstone_laser",
+        "x": 90,
+        "y": 90
+      },
+      "facing=north": {
+        "model": "redstonelasers:block/redstone_laser",
+        "x": 90
+      },
+      "facing=south": {
+        "model": "redstonelasers:block/redstone_laser",
+        "x": 270
+      },
+      "facing=west": {
+        "model": "redstonelasers:block/redstone_laser",
+        "x": 90,
+        "y": 270
+      },
+      "facing=up": {
+        "model": "redstonelasers:block/redstone_laser"
+      },
+      "facing=down": {
+        "model": "redstonelasers:block/redstone_laser",
+        "x": 180
+      }
+      
+    }
+  }

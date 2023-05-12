@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " S ",
+        "IGI",
+        "sss"
+    ],
+    "key": {
+        "I": {
+            "item": "minecraft:iron_nugget"
+        },
+        "s": {
+            "item": "minecraft:stone_slab"
+        },
+        "S": {
+            "item": "redstonelasers:redstone_shard"
+        },
+        "G": {
+            "item": "minecraft:glowstone_dust"
+        }
+    },
+    "result": {
+        "item": "redstonelasers:redstone_laser",
+        "count": 1
+    }
+}

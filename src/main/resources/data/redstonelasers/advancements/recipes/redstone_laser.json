@@ -1,0 +1,54 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "redstonelasers:redstone_laser"
+      ]
+    },
+    "criteria": {
+      "has_mirror": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "redstonelasers:redstone_shard"
+            }
+          ]
+        }
+      },
+      "has_glowstone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:glowstone_dust"
+            }
+          ]
+        }
+      },
+      "has_shard": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "redstonelasers:redstone_shard"
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "redstonelasers:redstone_laser"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_mirror",
+        "has_the_recipe",
+        "has_shard",
+        "has_glowstone"
+      ]
+    ]
+  }
