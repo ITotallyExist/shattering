@@ -4,6 +4,6 @@ Make it work as a library mod
 	Figure out maven publishing
 	REI/JEI compat
 
-Break Stained Glass/Glass Panes
+make it break tinted glass
 
-Get Icon
+add advancement for shattering something for the first time
