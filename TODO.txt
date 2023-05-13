@@ -1,0 +1,28 @@
+Blocks:
+	Redstone Laser
+		recipe
+		figure out how to get to work
+	Altar
+		model
+		block
+		recipe
+		look table
+		blockentity
+
+	Mirror
+		model
+		block
+		recipe
+		look table
+
+Clay Bowl
+
+Shattering
+	redstonelasers:shatterable tag
+	loot tables for shattering
+		cobble to gravel
+		stone to cobble
+		gravel to sand
+
+		
+Server and client side seperate
