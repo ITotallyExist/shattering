@@ -17,12 +17,5 @@ Blocks:
 
 Clay Bowl
 
-Shattering
-	redstonelasers:shatterable tag
-	loot tables for shattering
-		cobble to gravel
-		stone to cobble
-		gravel to sand
-
 		
 Server and client side seperate

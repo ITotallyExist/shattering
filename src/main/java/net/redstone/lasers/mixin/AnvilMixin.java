@@ -8,7 +8,9 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.At;
 
 import net.minecraft.block.AnvilBlock;
+import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.RedstoneBlock;
 import net.minecraft.entity.FallingBlockEntity;
 import net.minecraft.inventory.Inventory;
@@ -74,12 +76,16 @@ public class AnvilMixin {
 
                     //generate loot inventory
                 Inventory lootInventory = new SimpleInventory(lootStack.toArray(new ItemStack[0]));
-                
+
                 //spawn items from loot inventory
                 ItemScatterer.spawn(world, pos, lootInventory);
 
                 //destroy block without triggering its regular loot table
-                world.removeBlock(victimPos, false);
+                // world.setBlockState(victimPos, Blocks.AIR.getDefaultState(), Block.SKIP_DROPS);
+                //world.addBlockBreakParticles(victimPos, victimState);
+                world.breakBlock(victimPos, false);
+                //world.removeBlock(victimPos, false);
+
 
             }
             
