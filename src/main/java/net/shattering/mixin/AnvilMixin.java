@@ -41,7 +41,7 @@ public class AnvilMixin {
 
             
             //use that identifier to get the identifier for the loot table for shattering this block
-            Identifier shatterLootId = new Identifier("shattering:shattering/"+victimBlockId.getPath());
+            Identifier shatterLootId = new Identifier("shattering:shattering/"+victimBlockId.getNamespace()+"."+victimBlockId.getPath());
 
             System.out.println("Shatter loot id: "+shatterLootId.toString());
 
