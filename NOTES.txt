@@ -1,2 +1,0 @@
-Note: dropping anvil from one block leads to a zero percent chance of breaking
-	you can push anvils with pistons by making them entities by removing the block under them

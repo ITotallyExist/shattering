@@ -1,21 +1,7 @@
-Blocks:
-	Redstone Laser
-		recipe
-		figure out how to get to work
-	Altar
-		model
-		block
-		recipe
-		look table
-		blockentity
+REI/JEI compat
 
-	Mirror
-		model
-		block
-		recipe
-		look table
+Make it work with non vanilla blocks
 
-Clay Bowl
-
-		
-Server and client side seperate
+Make it work as a library mod
+	Figure out maven bullshit
+	use in redstonelasers mod
