@@ -43,21 +43,18 @@ public class AnvilMixin {
             //use that identifier to get the identifier for the loot table for shattering this block
             Identifier shatterLootId = new Identifier("shattering:shattering/"+victimBlockId.getNamespace()+"."+victimBlockId.getPath());
 
-            System.out.println("Shatter loot id: "+shatterLootId.toString());
+            //System.out.println("Shatter loot id: "+shatterLootId.toString());
 
             //get loot table
             LootTable lootTable = world.getServer().getLootManager().getTable(shatterLootId);
 
             //see if that loot table exists
             if (!(lootTable == LootTable.EMPTY)){//if it does, shatter block
-                System.out.println("shattering: "+victimBlockId.toString());
+                //System.out.println("shattering: "+victimBlockId.toString());
 
                 //get loot from loot table
-                
-                    
                     //get loot context
                         //get origin
-                
                 Vec3d origin = new Vec3d(victimPos.getX(), victimPos.getY(), victimPos.getZ());
                         //get loot context builder
                 LootContext.Builder lootContext = new LootContext.Builder((ServerWorld) world)
@@ -76,8 +73,6 @@ public class AnvilMixin {
 
                 //destroy block without triggering its regular loot table
                 world.breakBlock(victimPos, false);
-
-
             }
         }
     }
