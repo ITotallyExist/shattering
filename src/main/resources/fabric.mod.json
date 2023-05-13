@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "redstonelasers",
+  "id": "shattering",
   "version": "${version}",
 
-  "name": "Redstone Lasers",
-  "description": "This mod adds redstone lasers to improve your redstone builds and defense capabilities.",
+  "name": "Shattering",
+  "description": "This mod adds support for custom loot tables for anvils falling onto and breaking certain blocks.",
   "authors": [
     "i-totally-exist"
   ],

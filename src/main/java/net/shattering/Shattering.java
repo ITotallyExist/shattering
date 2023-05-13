@@ -1,4 +1,4 @@
-package net.redstone.lasers;
+package net.shattering;
 
 import net.fabricmc.api.ModInitializer;
 

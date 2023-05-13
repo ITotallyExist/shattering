@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.redstone.lasers.mixin",
+  "package": "net.shattering.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": ["AnvilMixin"
   ],
